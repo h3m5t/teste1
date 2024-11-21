@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pagina1</title>
+    <style>
+     #main {
+        background-color: #121212; 
+        color: #e0e0e0; 
+     }
+
+     .navbar {
+        background-color: #b22222; 
+     }
+
+     .navbar-brand, .nav-link {
+        color: #ffffff !important; 
+     }
+
+     .navbar-brand:hover, .nav-link:hover {
+        color: #ffcc00 !important; 
+     }
+
+     .btn-primary {
+        background-color: #b22222 !important; 
+        border-color: #b22222 !important; 
+        border-radius: 25px;
+        font-size: 16px;
+        padding: 10px 20px;
+        color: #ffffff !important; 
+        transition: background-color 0.3s ease, transform 0.3s ease;
+     }
+
+     .btn-primary:hover {
+        background-color: #8b0000 !important; 
+        transform: scale(1.05);
+     }
+
+     .card {
+        background-color: #1e1e1e; 
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+        color: #ffffff; 
+     }
+
+     .card img {
+        border-radius: 15px 15px 0 0;
+     }
+
+     footer {
+        background-color: #b22222;
+        color: #ffffff;
+        padding: 10px;
+     }
+
+     footer p {
+        margin: 0;
+     }
+
+     h2, h5 {
+        color: #ffffff; 
+     }
+
+     p, .card-text, .card-title {
+        color: #3f3c3c; 
+     }
+  </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <div id="main">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">WovieFilms</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Conta</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Destaques</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Promoções</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <br/>
+      <div class="container">
+        <div class="row text-center">
+            <div class="col-md-12">
+                <h2>Bem-Vindos ao WovieFilms!</h2>
+                <br/>
+                <a class="btn btn-primary" href="pagina2.html" role="button">Ver todos os filmes</a>
+            </div>
+        </div>
+      </div>
+      <br/><br/>
+
+      <div id="Destaques" class="text-center"> 
+        <h5>Destaques da Semana</h5>
+      </div>
+      <br/>
+
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="clubecl.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Clube dos cinco</h5>
+                  <p class="card-text">"Clube dos Cinco" é um filme dos anos 80 sobre cinco adolescentes com estilos de vida e personalidades 
+                    diferentes que se encontram em detenção escolar. Durante o dia, 
+                    eles quebram barreiras e descobrem que têm mais em comum do que pensavam.</p>
+                  <a href="https://cinemaemcena.com.br/coluna/ler/566/clube-dos-cinco#google_vignette" class="btn btn-primary">Ver mais sobre o filme</a>
+                </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="o-poco.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">O poço</h5>
+                  <p class="card-text">"O Poço" é um filme em que prisioneiros vivem em uma estrutura vertical, 
+                    recebendo comida por uma plataforma que desce pelos níveis. 
+                    A desigualdade no acesso à comida gera conflitos e questionamentos sobre a natureza humana e a solidariedade.</p>
+                  <a href="https://www.omelete.com.br/terror/poco-filme/o-poco-netflix-entenda-o-final" class="btn btn-primary">Ver mais sobre o filme</a>
+                </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="Paranoia_Poster.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Paranoia</h5>
+                  <p class="card-text">Um jovem ambicioso, Adam Cassidy, é forçado a trabalhar para um magnata da tecnologia depois de ser apanhado roubando segredos corporativos. 
+                    Ele se vê em um jogo perigoso entre duas grandes corporações rivais, onde suas habilidades e lealdades são testadas ao máximo. </p>
+                  <a href=" https://www.tecmundo.com.br/minha-serie/283164-paranoia-relembre-entenda-final-filme-shia-labeouf.htm" class="btn btn-primary">Ver mais sobre o filme</a>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      
+      <br/><br/>
+      <div id="Promoções" class="text-center"> 
+        <h5>Promoções da Semana</h5>
+      </div>
+      <br/>
+
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="piratascari.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Piratas do Caribe</h5>
+                  <p class="card-text">Jack Sparrow e sua tripulação embarcam em uma nova aventura em busca da Fonte da Juventude. 
+                    Eles enfrentam desafios sobrenaturais e rivais inesperados, 
+                    incluindo uma misteriosa figura do passado de Jack.</p>
+                  <a href="https://www.papodecinema.com.br/filmes/piratas-do-caribe-navegando-em-aguas-misteriosas/" class="btn btn-primary">Ver mais sobre o filme</a>
+                </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="matrixxx.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Matrix</h5>
+                  <p class="card-text">Thomas Anderson descobre que a realidade é uma simulação criada por máquinas. Junto a Morpheus e outros rebeldes, 
+                    ele luta pela liberdade da humanidade, confrontando a verdade sobre si mesmo e a Matrix.</p>
+                  <a href="https://www.culturagenial.com/filme-the-matrix/" class="btn btn-primary">Ver mais sobre o filme</a>
+                </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="genteee.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Gente grande</h5>
+                  <p class="card-text">Um grupo de amigos de infância se reúne em uma casa de campo após a morte de seu treinador de basquete. 
+                    Durante o final de semana, eles revivem memórias, reacendem rivalidades
+                     e redescobrem o valor da amizade.</p>
+                  <a href="https://www.papodecinema.com.br/filmes/gente-grande/" class="btn btn-primary">Ver mais sobre o filme</a>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      
+    </br>
+    </br>
+<footer class=" text-center" style="background-color:rgb(239, 60, 54)">
+    <p>&copy; <b>2024 WovieFilms. Todos os direitos reservados.</b></p>
+</footer>
+
+    </div>
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
